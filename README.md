@@ -1,14 +1,36 @@
-# Project
+---
+page_type: sample
+languages:
+- PowerApps
+products:
+- office-teams
+description: Allows employees to submit issues and managers to assign and manage issues
+urlFragment: microsoft-teams-app-issuereporting
+---
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+# Issue Reporting App Template
 
-As the maintainer of this project, please make a few updates:
+| [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-issuereporting/wiki/Documentation) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-issuereporting/wiki/Deployment-Guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-apps-issuereporting/wiki/Architecture) |
+| ---- | ---- | ---- |
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+Issue reporting consists of two different apps, one for reporting issues and another for managing them:
+
+## Manage Issues app
+
+The Manage Issues app is used by team managers to:
+
+Configure the app experience, including the channel in which Microsoft Teams messages and Planner tasks are created by the app.
+Create, review, edit, or delete issue template forms to collect information when a user reports an issue.
+Review team issues, report on issue history, and efficiently manage issue resolution.
+
+## Issue reporting app
+
+The Issue reporting app is used by employees to:
+Log issues with the information required to resolve the issue.
+Modify existing issues and assist with resolution
+Get a high-level view of the issues and team issues.
+
+
 
 ## Contributing
 
